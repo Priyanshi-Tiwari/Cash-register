@@ -1,0 +1,96 @@
+body{
+    background-color: #8AB6D6;
+}
+
+.cash-given-div{
+    display:none;
+    color:#001E6C;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.change-return-div{
+    display:none;
+    color:#001E6C;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    
+}
+
+.bill-amt-div{
+    color:#001E6C;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom:1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+section{
+    background-color: #FFAA4C;
+    border-radius: 0.5rem;
+    padding:0.5rem;
+    width:50%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1{
+    color:#001E6C;
+    text-align: center;
+    font-size: 2.5rem;
+    border-bottom:0.2rem solid #001E6C;
+    width:30%;
+    margin:auto;
+}
+
+p{
+    color:#001E6C;
+    text-align: center; 
+    font-size: 1.5rem;
+}
+
+table{
+    margin: auto;
+    
+    margin-top:0rem 1rem;
+}
+
+th,td{
+    border: 0.2rem solid #001E6C;
+    padding: 0.5rem;
+}
+
+button{
+    font-size: 1.2rem;
+    padding:0.25rem;
+    border-radius: 0.5rem;
+    background-color: #001E6C;
+    color:white;
+}
+
+input{
+    padding:0.5rem;
+    border-radius: 0.2rem;
+    width:30%;
+
+}
+
+.change-return-div .return-lable{
+    margin: 5rem;
+    border:0.2rem solid #001E6C;
+}
+
+.error-msg{
+    color:#001E6C;
+    text-align: center; 
+    font-size: 1.5rem;
+
+}
+
